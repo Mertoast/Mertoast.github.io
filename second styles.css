@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+body {
+     
+     background: #0d0d15 ;
+     color: white;
+     background-size: cover;
+     font-family: 'Roboto', sans-serif;
+     line-height: 28px;
+     max-width: auto; 
+     overflow-x: hidden;      
+}
+
+section {
+    height: 1080px;
+    padding: 0 calc(50%-590px);
+  }
+
+@media (max-width:1080px) {
+    .hat {
+        min-width: 1080px ;
+        display: table;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none; 
+}
+
+ul {
+    
+    text-align: center;
+    font-size: 25px;
+    background-color:none;
+    background-attachment: scroll;
+}
+
+.hat {
+    position: relative;
+    margin-top: -745px;
+    background-color: #0d0d15;
+}
+
+.menu {
+    background-color: #0d0d15;
+    position: relative;
+    display: block;
+}
+
+.left-item {
+    float: left;
+    padding-left: 15%;
+    display: inline;
+}
+
+.left-item:hover a {
+    color: rgb(54, 54, 233);
+
+}
+
+.right-item {
+    float: right;
+    padding-right: 15%;
+    display: inline; 
+}
+
+.right-item:hover a {
+    color: rgb(54, 54, 233);
+}
+
+.logo {
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.drop {
+    float: right;
+    padding-right: 15%;
+    display: inline;
+    
+
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0d0d15;
+    background: rgba(0, 0, 0, 0.4);
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    margin-top: 26%;
+    
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.dropdown-content a:hover {
+    background-color: #0d0d15;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .drop {
+    color: rgb(54, 54, 233);
+}
+
+.about {
+    display: block;
+    max-width: 710px;
+    margin-top: 44%;
+    padding-top: 30px;
+    position: relative;
+    font-size: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 10px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    
+}
+
+@media (max-width:1080px) {
+    .about {
+        display: table;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+.title-name {
+    display: block;
+    font-size: 25px;
+}
+
+p { 
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.Features {
+    display: block;
+    list-style-type: disc;
+    background: inherit;
+    font-size: 15px;
+    max-width: 710; 
+    text-align-last: start;
+    padding-inline-start: 40px;  
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+    top: 51px;
+}
+
+.Screen {
+    background: url(video4.mp4);
+    background-color: #010107; 
+    border-radius: 20px;
+}
+
+.content-p-title {
+margin-bottom: 5%;
+font-size: 25px;
+display: block;
+}
+
+.navigation {
+    top: 810px;
+    position: fixed;
+    right: 500px;
+}
+
+@media (max-width:1080px) {
+    .navigation {
+        display: table;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+.nav-head {
+    padding-left: 40px;
+}
+
+.nav-names {
+    font-size: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    text-align-last: start;   
+}
+
+.video-title {
+    font-size: 25px;
+}
+
+.footer {
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 300px;
+    position: relative;
+    background-color: white;
+    clear: both;
+    z-index: 10;
+    color: black;
+    
+}
+.footer-in {
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 250px;
+    color: black;
+       
+}
+.footer-in ul {
+    list-style-type: none;
+    padding-inline-start: 0px;   
+}
+
+.footer-in li {
+    line-height: 0.9em;    
+}
+
+.footer-in a {
+    color: black;
+    font-size: 15px;  
+}
+    
+.footer-in-left {
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    height: auto;
+    bottom: 0px;
+    float: left;
+    text-align-last: start;
+    line-height: 1px;   
+}
